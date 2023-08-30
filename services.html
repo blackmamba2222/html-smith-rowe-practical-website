@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+	
+	
+	<style>
+	
+	.card {
+    position: relative;
+    overflow: hidden;
+	width: 50%;
+    height: 50%;
+}
+
+.card .card-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.card:hover .card-image-overlay {
+    opacity: 1;
+}
+
+.card-image-overlay p {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+	
+	</style>
+  </head>
+  
+  
+  <body>
+  <div class="col">
+    <div class="card ">
+        <div class="card-image-overlay">
+            <img src="images/p2.jpg" class="card-img-top" alt="p2">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">CAD$ 1500</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </body>
+  </html>

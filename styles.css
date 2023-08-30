@@ -1,0 +1,164 @@
+.hd-content{background-image: url(images/11.jpg); 
+			background-size: cover;}
+
+
+.hd{background-color: rgb(44, 62, 80,0.5 );  
+	height: 400px; 
+	padding: 100px 0px; 
+	width: 100%; 
+	color: #2C3E50; 
+	text-align: center; 
+	font-size: 80px; 
+	font-weight: bold; }
+			
+			
+.h1{color: #F1C40F; 
+	text-align: center; 
+	font-size: 80px; 
+	font-weight: bold; 
+	font-family: 'Algeria';	}	
+	
+/* Navigation Bar*/
+nav{background-color: gold;  
+	text-align: right; 
+	padding-top:30px; 
+	padding-bottom: 30px;}
+	
+
+nav a{color: rgba(125,102,8); 
+	  margin-left:15px; 
+	  font-size: 20px; 
+	  display: inline-block; 
+	  position: relative; 
+	  right: 150px; }
+
+nav a:hover{background-color:#F1C40F;  
+			transition: all 0.6s }
+
+
+/* Button style*/
+.button{ background-color: #4CAF50;
+		 cursor: pointer; 
+		 display: inline-block; 
+		 font-size: 16px; 
+		 padding: 10px 20px; 
+		 position: relative; 
+		 right: 300px; 
+		 top: 100px; 
+		 text-align: center; 
+		 text-decoration: none; 
+		 border-radius:10px; 
+		 border: none; 
+		 font-weight: bolder; 
+		 color: white;}
+
+.button:hover{background-color:#F1C40F;} 
+
+
+/* Products style*/
+.container1{ border: 3px solid red; 
+			text-align: center;
+			padding-top: 40px; 
+			padding-bottom: 40px;
+			margin-top: 30px;
+			}
+
+.head-content{color: red; 
+			  text-align: center; 
+			  padding-top: 30px; 
+			  padding-bottom: 30px; 
+			  font-size: 30px;}
+ 
+.ccontain{height: 320px; 
+		  border: 3px solid red; 
+		  width: 30%; 
+		  display: inline-block; 
+		  vertical-align: top; }
+
+.title{color: red; 
+	   text-align: center; 
+	   font-size: 15px;}
+
+.link a{border: 2px solid red;  
+		background-color: gold; 
+		text-align: center; 
+		width: 70px; 
+		padding: 5px 0px;  
+		text-decoration: none; 
+		display: inline-block; 
+		border-radius: 5px;}
+
+
+
+/* About style */
+.section{border: 2px solid red;
+		 
+		 padding-top: 40px; 
+		 padding-bottom: 40px;
+		 margin-top: 40px;
+		 background-color: rgba(22, 22, 22, 0.5);
+		 background-image: url(images/mk5.jpg);
+		 background-size: cover;}
+		 
+.head-section{color: red; 
+			  text-align: left; 
+			  padding: 10px 20px; 
+			  font-size: 40px;
+			  font-weight: bolder;
+			  margin-bottom: 20px;
+			  font-style: italic;}
+			  
+
+.section1 p{color: #F8D212;
+			display: inline-block;
+			position: relative;
+			left: 50px;
+			bottom: 30px;
+			text-align: justify; 
+			padding-top: 20px; 
+			padding-bottom: 20px; 
+			font-size: 15px;
+			font-style: italic;
+			font-family}
+
+.link-section1{background-color: #4CAF50; 
+				 text-align: center; 
+				 padding: 10px 20px;  
+				 text-decoration: none; 
+				 display: inline-block; 
+				 border-radius: 5px; 
+				 font-size: 18px;
+				 position: relative;
+				 right: 150px;
+				 color: white;}			
+			
+			
+.section-link a{ background-color: #4CAF50; 
+				 text-align: center; 
+				 padding: 10px 20px;  
+				 text-decoration: none; 
+				 display: inline-block; 
+				 border-radius: 5px; 
+				 font-size: 18px;
+				 position: relative;
+				 bottom: 95px;
+				 left: 700px;
+				 margin-top: 30px;
+				 color: white;}
+				 
+
+.section h1{display: inline-block;
+			position: relative;
+			bottom: 100px;
+			left: 600px;
+			text-align: left;}	 
+			
+			
+			
+			
+.h12{color: red;
+	 display: inline-block;
+	 position: relative;
+	 bottom: 100px;
+	 left: 550px;
+	 }		 
